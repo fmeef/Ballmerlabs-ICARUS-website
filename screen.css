@@ -49,8 +49,7 @@ table {
 
 /* Custom site styles */
 /* 
-  Using Minor Third Modular Scale: 
-  http://www.modularscale.com/?18&px&1.2&web&text
+  Using 1.25 Modular Scale: 
 */
 
 body {
@@ -63,10 +62,10 @@ body {
 }
 
 h2 {
-  font-size: 1.728em; /* 31.104px / 18px */
-  line-height: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
-  padding-top: 0.8333333333333334em; /* 25.92px / 31.104 */
-  padding-bottom: 1.6666666666666667em; /* 25.92 * 2 / 31.104 */
+  font-size: 1.758em; /* 28.125px / 16px */
+  line-height: 1.80844907407407407407em; /* 28.125 * 2 / 31.104 */
+  padding-top: .90422453703703703703em; /* 28.125 / 31.104 */
+  padding-bottom: 1.80844907407407407407em; /* 28.125 * 2 / 31.104 */
 }
 
 
