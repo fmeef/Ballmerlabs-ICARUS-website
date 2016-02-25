@@ -61,14 +61,26 @@ body {
   text-size-adjust: 100%;
 }
 
+
+img {
+    display: block;
+    max-width: 100%;
+    padding-bottom: 1.56250000000000000000  /* 28.125/18 */
+}
 h2 {
-  font-size: 1.758em; /* 28.125px / 16px */
+  font-size: 1.758em; /* 28.125px / 18px */
   line-height: 1.80844907407407407407em; /* 28.125 * 2 / 31.104 */
   padding-top: .90422453703703703703em; /* 28.125 / 31.104 */
   padding-bottom: 1.80844907407407407407em; /* 28.125 * 2 / 31.104 */
 }
 
+@media screen and (min-width: 33.33333333333333333333em) {
 
+
+
+
+
+}
 
 
 
