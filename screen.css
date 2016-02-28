@@ -54,6 +54,21 @@ table {
 
 
 
+
+.maincol-container {
+    display: flex;
+    padding: 1em;
+    margin:  1em;
+}
+
+.maincol1 {
+    
+}
+
+.maincol2 {
+    
+}
+
 .title-container {
 
     display: flex;
