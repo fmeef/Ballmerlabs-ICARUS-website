@@ -56,7 +56,7 @@ table {
 
 
 .maincol-container {
-    display: flex;
+
     padding: 1em;
     margin:  1em;
 }
@@ -110,6 +110,46 @@ h2 {
 
 @media screen and (min-width: 33.33333333333333333333em) {
 
+
+body {
+  font-size: 1.125em; /* 18px/16px = 1.125 */
+  line-height: 1.4400000000000002em; /* 25.92px / 18px */
+  padding-top: 1.4400000000000002em; /* 25.92px / 18px */
+  padding-left: 1.200em; /* 5:6 ratio on baseline */
+  padding-right: 0.600em; /* half the 5:6 ratio */
+  text-size-adjust: 100%;
+  background: black;
+  color: grey;
+}
+
+    
+.maincol-container {
+    display: flex;
+    padding: 1em;
+    margin:  1em;
+}
+
+.maincol1 {
+    
+}
+
+.maincol2 {
+    
+}
+
+.title-container {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.logo1 {
+
+    align: right;
+
+}
 
 
 
