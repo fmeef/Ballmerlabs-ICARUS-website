@@ -124,11 +124,13 @@ h2 {
     }
     
     .maincol1 {
-	
+	border: 1px solid grey;
+	margin: 0.5em;
     }
     
     .maincol2 {
-	
+	border: 1px solid grey;
+	margin: 0.5em;
     }
     
     .title-container {
