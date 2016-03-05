@@ -5,9 +5,9 @@
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+a, abbr, acronym, address, big, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strike, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -61,13 +61,6 @@ table {
     margin:  auto;
 }
 
-.maincol1 {
-    
-}
-
-.maincol2 {
-    
-}
 
 .title-container {
     padding: 0;
@@ -119,19 +112,20 @@ h2 {
     
     .maincol-container {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-flow: row wrap;
+	allign-content: stretch;
 	padding: auto;
 	margin:  auto;
     }
     
-    .maincol1 {
+    .maincol-item {
 	border: 1px solid grey;
+	width: 40%;
 	margin: 0.5em;
     }
     
-    .maincol2 {
-	border: 1px solid grey;
-	margin: 0.5em;
-    }
     
     .title-container {
 	
